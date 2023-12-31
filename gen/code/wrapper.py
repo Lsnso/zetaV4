@@ -1,7 +1,7 @@
 from multiprocessing import Process
 from main import main
 
-pv = "20"
+pv = "AA"
 for decision in ["H", "S", "D"]:
 #decision = "P"
 #for pv in ["AA", "22", "33", "44", "55", "66", "77", "88", "99", "TT"]:
