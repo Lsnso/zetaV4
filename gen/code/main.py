@@ -51,7 +51,3 @@ def main(pv, dv, count, decision):
     expected_value = (1 * wins/total) + (0 * draws/total) + (-1 * losses/total)
     to_file(pv, dv, count, decision, expected_value)
     print(f"Finished {pv} vs. {dv} at {count} with {decision}")
-
-main("13", "7", -4, "D")
-main("12", "6", -3, "D")
-main("10", "9", 1, "S")
