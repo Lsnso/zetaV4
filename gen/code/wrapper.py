@@ -2,7 +2,8 @@ from multiprocessing import Process
 from main import main
 
 pv = "AA"
-for decision in ["H", "S", "D"]:
+for decision in ["P"]:
+#for decision in ["H", "S", "D"]:
 #decision = "P"
 #for pv in ["AA", "22", "33", "44", "55", "66", "77", "88", "99", "TT"]:
     for count in range(-5,6):

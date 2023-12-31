@@ -92,7 +92,7 @@ class Game():
         combinations = {
             #combinations are merely a visual add on while debugging. these must not have impact in the result
             #pair combinations
-            #"AA" : [["A"]],
+            "AA" : [["A"]],
             "22" : [["2"]],
             "33" : [["3"]],
             "44" : [["4"]],
@@ -104,7 +104,7 @@ class Game():
             "TT" : [["T"], ["Q"], ["J"], ["K"]],
 
             #soft combinations
-            "AA" : [["A", "A"]],
+            #"AA" : [["A", "A"]],
             "A2" : [["A", "2"], ["2", "A"]],
             "A3" : [["A", "3"], ["3", "A"]],
             "A4" : [["A", "4"], ["4", "A"]],

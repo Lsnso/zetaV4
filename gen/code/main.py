@@ -16,7 +16,7 @@ def logic(pv, dv, count, decision):
 
     if split: 
         player2, dealer2, deck2 = Hand(), Hand(), Deck()
-        game2 = Game([player2, pv], [dealer2, dv], [deck2, count], "H")
+        game2 = Game([player2, pv], [dealer2, dv], [deck2, count], "P")
         game2.dealer = game.dealer
         while game2.on:
             game2.do_player()
